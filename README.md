@@ -2,6 +2,8 @@
 
 The Quiz App is a simple web application that allows users to take quizzes on various topics. It fetches questions from an external API and presents them to the user, allowing them to select answers and receive immediate feedback on their performance.
 
+Site is live at https://reninmohan.github.io/Simple-Computer-Quiz/
+
 ![Quiz App Screenshot](./assets/quiz_app_screenshot.png)
 
 ## Features
