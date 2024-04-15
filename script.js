@@ -82,12 +82,13 @@ function handleAnswer(event){
         selectButton.classList.add("wrong")
         
     }
-    buttons.forEach(button=>{
-        button.disabled = true;
-        if(button.innerText === questionSet[currentQuestion].correct_answer){
-            button.classList.add("correct");
+
+    for(let i=0;i<buttons.length;i++){
+        buttons[i].disabled = true;
+        if(buttons[i].innerText === questionSet[currentQuestion].correct_answer){
+            buttons[i].classList.add("correct");
         }
-    })
+    }
     
 }
 
