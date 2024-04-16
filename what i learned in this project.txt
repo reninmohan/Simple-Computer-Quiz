@@ -1,0 +1,21 @@
+1.Use static content for styling css
+2.Use vendor prefix for ios devices
+3.Using import for font-family import
+4.Using min-heigth for full heigth background
+5.Avoid adding event listener on ul because of event triggering when clicked between li elements
+6.When button is clicked hover is disabled and cursor is disabled
+
+buttons[i].disabled = true;
+.btn:hover:not([disabled]){
+    background-color: #333333;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+    color: black;
+}
+
+7.Use object destructing for retrieveing property from a object and using array spread operator .... to store these property values into an array.
+
+8.Using for loop on DOM collection elements.
